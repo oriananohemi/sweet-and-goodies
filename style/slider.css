@@ -1,0 +1,52 @@
+/* ESTILOS DEL SLIDER */
+
+.welcome {
+  display: flex;
+  justify-content: space-between;
+}
+
+.welcome-section {
+  display: flex;
+  height: 600px;
+  position: relative;
+  width: 50%;
+}
+
+.welcome-img {
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 800px;
+}
+
+.welcome-section input[type="radio"] {
+  margin: 10px;
+  position: relative;
+  z-index: 100;
+}
+
+.welcome-section input[type="radio"]:checked ~ .welcome-img {
+  opacity: 1;
+}
+
+.welcome-text {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 50px;
+  width: 50%;
+}
+
+.welcome-text_title {
+  font-family: 'Indie Flower', cursive;
+  font-size: 50px;
+  margin-bottom: 30px ;
+}
+
+.welcome-text-paragraph {
+  margin-bottom: 10px;
+  padding: 10px;
+}
