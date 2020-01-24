@@ -14,3 +14,19 @@
 .icon-section_img:hover {
   transform: rotateZ(45deg);
 }
+
+.information-section_container {
+  background-image: url(../img/postres.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.information-section {
+  margin: 50px;
+  padding: 30px;
+  width: 50%;
+}
+
+.information-section_title {
+  padding-bottom: 20px;
+}
