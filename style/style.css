@@ -25,10 +25,22 @@ body {
   font-family: 'Ubuntu', sans-serif;
   font-size: 25px;
   letter-spacing: 2;
+  text-align: center;
+}
+
+.container {
+  padding: 20px;
+  margin: 0 auto;
+  width: 92%;
 }
 
 .flex-container {
   align-items: center;
   display: flex;
   justify-content: space-around;
+}
+
+.title {
+  font-family: 'Indie Flower', cursive;
+  padding: 10px 0;
 }
