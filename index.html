@@ -5,49 +5,85 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="./img/icon/sweetBrand.webp" type="image/x-icon">
   <link rel="stylesheet" href="./style/style.css">
-  <link rel="shortcut icon" href="./img/pastelbrand.webp" type="image/x-icon">
-  <title>Tu</title>
+  <link rel="stylesheet" href="./style/header.css">
+  <link rel="stylesheet" href="./style/slider.css">
+  <link rel="stylesheet" href="./style/sections.css">
+  <title>sweets and Goodies</title>
 </head>
 
 <body>
-  <header>
-    <img src="./img/favicoPastel.jpg" alt="">
-    <nav>
-      <ul>
-        <li><a href="">Inicio</a></li>
-        <li><a href="">Recetas</a></li>
+  <header class="header flex-container">
+    <img class="header-img" src="./img/icon/sweetBrand.webp" alt="">
+    <input type="checkbox" id="header-menu-button">
+    <label for="header-menu_button"></label>
+    <img class="header-menu_img" src="./img/icon/iconomenu.png" alt="">
+    <nav class="header-nav">
+      <ul class="header-list flex-container">
+        <li class="header-item"><a href="#">Inicio</a></li class="header-item">
+        <li class="header-item"><a href="./recetas/index.html">Recetas</a></l class="header-item" i>
       </ul>
     </nav>
   </header>
-  <article>
+  <article class="welcome">
     <section>
-      <ul>
+      <ul class="welcome-section">
+        <!-- flex-container -->
         <li>
-          <input type="radio">
-          <label for=""></label>
-          <img src="./img/chocolate.jpeg" alt="">
+          <input type="radio" id="slider-img1" name="slider-radio" checked>
+          <label for="slider-img1"></label>
+          <img class="welcome-img" src="./img/slider/preparation.jpeg" alt="">
         </li>
         <li>
-          <img src="./img/prexel.jpeg" alt="">
+          <input type="radio" id="slider-img2" name="slider-radio">
+          <label for="slider-img2"></label>
+          <img class="welcome-img" src="./img/slider/churros.jpeg" alt="">
         </li>
         <li>
-          <input type="radio">
-          <label for=""></label>
-          <img src="./img/brownie.jpeg" alt="">
+          <input type="radio" id="slider-img3" name="slider-radio">
+          <label for="slider-img3"></label>
+          <img class="welcome-img" src="./img/slider/cupcake.jpeg" alt="">
         </li>
         <li>
-          <img src="./img/canela.jpeg" alt="">
+          <input type="radio" id="slider-img4" name="slider-radio">
+          <label for="slider-img4"></label>
+          <img class="welcome-img" src="./img/slider/canela.jpeg" alt="">
         </li>
       </ul>
     </section>
-    <section>
-      <h1>Bienvenidos</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio quas iusto, quasi, rerum iure laudantium, enim
+    <section class="welcome-text">
+      <h1 class="welcome-text_title">Bienvenidos</h1>
+      <p class="welcome-text-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio quas iusto,
+        quasi, rerum iure laudantium, enim
         soluta voluptatum nihil consequatur totam excepturi! Autem nihil recusandae cupiditate voluptatibus vitae eos
         illo!</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate vero maxime reiciendis quis, totam saepe
+        numquam, eum animi voluptatibus excepturi quas sed vel neque a distinctio officiis natus eos et.</p>
     </section>
   </article>
+  <article class="icon-section">
+    <div class="icon-section_container">
+      <img class="icon-section_img" src="./img/icon/cupcakeP.png" alt="">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores omnis quidem aliquid pariatur perferendis
+        voluptate! Modi repellat perferendis perspiciatis neque magnam excepturi laborum nam, incidunt non. Ratione ex
+        quis corrupti!</p>
+    </div>
+    <div class="icon-section_container">
+      <img class="icon-section_img" src="./img/icon/cupcakeP2.png" alt="">
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero recusandae natus provident deserunt dolor quasi
+        architecto illo corporis placeat doloremque laborum beatae aliquid, autem dolore repellat sunt quas voluptatum
+        incidunt?
+      </p>
+    </div>
+    <div class="icon-section_container">
+      <img class="icon-section_img" src="img/icon/cupcakeP3.webp" alt="">
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum eius commodi nesciunt illo dolorem praesentium
+        culpa obcaecati aspernatur amet. Odit eveniet rem architecto magnam hic totam perspiciatis ex quam eligendi.</p>
+    </div>
+  </article>
+
 </body>
 
 </html>
