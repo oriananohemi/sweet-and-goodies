@@ -1,0 +1,16 @@
+.icon-section {
+  padding: 30px;
+}
+.icon-section_container {
+  text-align: center;
+  padding: 50px;
+}
+
+.icon-section_img {
+  padding-bottom: 20px;
+  width: 150px;
+}
+
+.icon-section_img:hover {
+  transform: rotateZ(45deg);
+}

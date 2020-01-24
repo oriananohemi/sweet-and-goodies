@@ -1,7 +1,6 @@
 /* ESTILOS PARA EL HEADER */
 
 .header {
-  background-color: black;
   height: 150px;
 }
 
@@ -16,10 +15,6 @@
 
 .header-menu_img {
   width: 40px;
-}
-
-.header-nav {
-  color: white ;
 }
 
 .header-item {

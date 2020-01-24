@@ -1,6 +1,7 @@
 /* ESTILOS DEL SLIDER */
 
 .welcome {
+  background-image: url(../img/slider/background.jpg);
   display: flex;
   justify-content: space-between;
 }
@@ -33,8 +34,6 @@
 }
 
 .welcome-text {
-  background-color: black;
-  color: white;
   text-align: center;
   padding: 50px;
   width: 50%;
