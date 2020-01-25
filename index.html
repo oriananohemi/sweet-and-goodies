@@ -10,11 +10,12 @@
   <link rel="stylesheet" href="./style/header.css">
   <link rel="stylesheet" href="./style/slider.css">
   <link rel="stylesheet" href="./style/sections.css">
+  <link rel="stylesheet" href="./style/footer.css">
   <title>sweets and Goodies</title>
 </head>
 
 <body>
-  <header class="header flex-container">
+  <header class="header flex-container container">
     <img class="header-img" src="./img/icon/sweetBrand.webp" alt="">
     <input type="checkbox" id="header-menu-button">
     <label for="header-menu_button"></label>
@@ -52,7 +53,7 @@
       </ul>
     </section>
     <section class="welcome-text">
-      <h1 class="welcome-text_title">Bienvenidos</h1>
+      <h1 class="welcome-text_title title">Bienvenidos</h1>
       <p class="welcome-text-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio quas iusto,
         quasi, rerum iure laudantium, enim
         soluta voluptatum nihil consequatur totam excepturi! Autem nihil recusandae cupiditate voluptatibus vitae eos
@@ -61,7 +62,7 @@
         numquam, eum animi voluptatibus excepturi quas sed vel neque a distinctio officiis natus eos et.</p>
     </section>
   </article>
-  <article class="icon-section flex-container">
+  <article class="icon-section flex-container container">
     <div class=" icon-section_container">
       <img class="icon-section_img" src="./img/icon/cupcakeP.png" alt="">
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores omnis quidem aliquid pariatur perferendis
@@ -83,27 +84,63 @@
     </div>
   </article>
   <article class="information-section_container">
-    <div class="information-section">
-      <h2 class="information-section_title">
-        ALGO
-      </h2>
-      <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium nobis officia sunt cupiditate natus
-        aperiam, odio vitae officiis nesciunt, delectus facilis, mollitia est iure. Quae architecto doloremque rerum
-        porro minus?
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis voluptatum iure soluta vero voluptate eos
-        obcaecati praesentium ipsam, rem laudantium tempore nesciunt facere atque exercitationem, aliquam deleniti
-        expedita nihil impedit!
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, praesentium minus et esse inventore officia
-        maxime quisquam qui voluptas tempore est in recusandae eaque id quibusdam atque ea repellendus architecto!
-      </p>
+    <div class="container">
+      <div class="information-section">
+        <h2 class="title">
+          ALGO
+        </h2>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium nobis officia sunt cupiditate natus
+          aperiam, odio vitae officiis nesciunt, delectus facilis, mollitia est iure. Quae architecto doloremque rerum
+          porro minus?
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis voluptatum iure soluta vero voluptate eos
+          obcaecati praesentium ipsam, rem laudantium tempore nesciunt facere atque exercitationem, aliquam deleniti
+          expedita nihil impedit!
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, praesentium minus et esse inventore officia
+          maxime quisquam qui voluptas tempore est in recusandae eaque id quibusdam atque ea repellendus architecto!
+        </p>
+      </div>
     </div>
   </article>
-
+  <footer class="container">
+    <h2 class="title">Contactanos</h2>
+    <article class="flex-container">
+      <section class="footer-section">
+        <h3 class="title">Sobre nosotros</h3>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos dolorem eaque enim blanditiis doloribus illo
+          autem placeat dolor, nesciunt excepturi consequatur quo, velit harum. Illum quia vel corrupti fuga. Nisi?
+        </p>
+      </section>
+      <section class="footer-section">
+        <h3 class="title">Siguenos</h3>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-facebook"></i>
+      </section>
+      <section class="footer-section">
+        <h3 class="title">Dejanos tus comentarios</h3>
+        <form action="">
+          <input type="text" name="name" placeholder="Escriba su nombre">
+          <input type="text" name="lastName" placeholder="Escriba su apellido">
+          <input type="email" name="email" placeholder="Escriba su correo">
+          <input type="text" name="telephone" placeholder="Escriba su numero de telefono">
+          <textarea name="message" placeholder="Escriba su mensaje"></textarea>
+          <input type="button" value="enviar" id="button">
+        </form>
+      </section>
+    </article>
+    <section class="copyright">
+      <p>
+        Hecho por Oriana Reina, para el curso de Fundamentos de Programacion de BICTIA <br>
+        Bogota-Colombia 2020
+      </p>
+    </section>
+  </footer>
 </body>
 
 </html>
