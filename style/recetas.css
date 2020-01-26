@@ -1,0 +1,14 @@
+/* ESTILOS DEL HERO */
+.hero {
+  display: flex;
+  padding-bottom: 20px;
+}
+
+.hero-img_container {
+  padding: 0 10px;
+  max-width: 25%;
+}
+
+.hero-img {
+  max-width: 100%;
+}
