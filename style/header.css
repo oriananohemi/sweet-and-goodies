@@ -4,25 +4,26 @@
 }
 
 .header-img {
-  width: 100px;
-}
-
-#header-menu_button,
-.header-menu_img {
-  display: none;
-}
-
-.header-menu_img {
-  width: 40px;
+  max-width: 80px;
 }
 
 .header-item {
+  cursor: pointer;
   margin-left: 10px;
 }
 
-@media (max-width:720px) {
-#header-menu_button,
-.header-menu_img {
-  display: block;
+.header-item:hover {
+  transform: translateY(-10px);
+  transition: all .5s ease-in-out;
 }
+
+@media (max-width: 1020px){
+
+}
+
+@media (max-width: 920px) {
+}
+
+@media (max-width: 620px) and (orientation: portrait)  {
+
 }

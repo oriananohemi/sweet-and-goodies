@@ -1,6 +1,23 @@
 .footer-section {
   padding: 10px;
-  width: 33.3%;
+  flex: 1 1 33.3%;
+}
+
+.form-item {
+  padding: 0 10px;
+  margin: 10px 0;
+}
+
+.text-area {
+  padding: 0 10px;
+  height: 50px;
+  margin: 10px 0;
+}
+
+.button {
+  display: block;
+  margin: 0 auto;
+  padding: 2px;
 }
 
 .copyright {
@@ -10,16 +27,35 @@
 }
 
 .footer-img {
+  margin: 10px 0 ;
   width: 50px;
 }
 
-@media (max-width: 920px) and (orientation: portrait) {
-  .footer-section {
-  width: 100%;
+@media (max-width: 1020px){
+
 }
+
+@media (max-width: 920px) {
+  .footer-section {
+  flex: 1 1 100%;
+}
+
+.form-item {
+  margin: 5px 0;
+}
+
+.text-area {
+  display: block;
+  margin: 10px auto;
+}
+
 .copyright {
   font-size: 10px;
-  padding: 20px;
+  padding: 15px;
   text-align: center;
 }
+}
+
+@media (max-width: 620px) and (orientation: portrait)  {
+
 }

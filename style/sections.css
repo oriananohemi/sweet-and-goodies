@@ -42,3 +42,18 @@
 }
 
 }
+
+@media (max-width: 1020px){
+
+}
+
+@media (max-width: 920px) {
+.information-section {
+  padding: 20px;
+  width: 80%;
+}
+}
+
+@media (max-width: 620px) and (orientation: portrait)  {
+
+}

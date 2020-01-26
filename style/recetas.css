@@ -16,7 +16,7 @@
 .section-history_container {
   background-image: url(../img/recetas/cupcake.jpeg);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   background-position: right;
 }
 
@@ -25,19 +25,38 @@
   width: 50%;
 }
 
-.video-container {
-  width: 50%;
+.video-container,
+.section-video {
+  flex: 1 1 50%;
+  padding: 10px;
 }
 
 .video {
   width: 100%;
 }
 
-@media (max-width: 920px) and (orientation: portrait) {
+@media (max-width: 1020px){
+
+}
+
+@media (max-width: 920px) {
+.section-history_container {
+  margin: 20px 0;
+}
+.video-container,
+.section-video {
+  flex: 1 1 100%;
+}
+
 .section-history {
+  padding: 10px;
   width: 100%;
 }
 .video-container {
   width: 100%;
 }
+}
+
+@media (max-width: 620px) and (orientation: portrait)  {
+
 }

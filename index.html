@@ -16,10 +16,7 @@
 
 <body>
   <header class="header flex-container container">
-    <img class="header-img" src="./img/icon/sweetBrand.webp" alt="">
-    <input type="checkbox" id="header-menu-button">
-    <label for="header-menu_button"></label>
-    <img class="header-menu_img" src="./img/icon/iconomenu.png" alt="">
+    <img class="header-img" src="../img/icon/sweetBrand.webp" alt="">
     <nav class="header-nav">
       <ul class="header-list flex-container">
         <li class="header-item"><a href="#">Inicio</a></li class="header-item">
@@ -28,30 +25,28 @@
     </nav>
   </header>
   <article class="welcome">
-    <section class=" welcome-section">
-      <ul class=" welcome-section_list">
-        <li>
-          <input type="radio" id="slider-img1" name="slider-radio" checked>
-          <label for="slider-img1"></label>
-          <img class="welcome-img" src="./img/slider/preparation.jpeg" alt="">
-        </li>
-        <li>
-          <input type="radio" id="slider-img2" name="slider-radio">
-          <label for="slider-img2"></label>
-          <img class="welcome-img" src="./img/slider/churros.jpeg" alt="">
-        </li>
-        <li>
-          <input type="radio" id="slider-img3" name="slider-radio">
-          <label for="slider-img3"></label>
-          <img class="welcome-img" src="./img/slider/cupcake.jpeg" alt="">
-        </li>
-        <li>
-          <input type="radio" id="slider-img4" name="slider-radio">
-          <label for="slider-img4"></label>
-          <img class="welcome-img" src="./img/slider/canela.jpeg" alt="">
-        </li>
-      </ul>
-    </section>
+    <ul class="welcome-slider">
+      <li>
+        <input type="radio" id="slider-img1" name="slider-radio" checked>
+        <label for="slider-img1"></label>
+        <img class="welcome-img" src="./img/slider/preparation.jpeg" alt="">
+      </li>
+      <li>
+        <input type="radio" id="slider-img2" name="slider-radio">
+        <label for="slider-img2"></label>
+        <img class="welcome-img" src="./img/slider/churros.jpeg" alt="">
+      </li>
+      <li>
+        <input type="radio" id="slider-img3" name="slider-radio">
+        <label for="slider-img3"></label>
+        <img class="welcome-img" src="./img/slider/cupcake.jpeg" alt="">
+      </li>
+      <li>
+        <input type="radio" id="slider-img4" name="slider-radio">
+        <label for="slider-img4"></label>
+        <img class="welcome-img" src="./img/slider/canela.jpeg" alt="">
+      </li>
+    </ul>
     <section class="welcome-text">
       <h1 class="welcome-text_title title">Bienvenidos</h1>
       <p class="welcome-text-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio quas iusto,
@@ -111,7 +106,7 @@
     <article class="flex-container">
       <section class="footer-section">
         <h3 class="title">Sobre nosotros</h3>
-        <p>
+        <p class="paragraph">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos dolorem eaque enim blanditiis doloribus illo
           autem placeat dolor, nesciunt excepturi consequatur quo, velit harum. Illum quia vel corrupti fuga. Nisi?
         </p>
@@ -132,13 +127,13 @@
       </section>
       <section class="footer-section">
         <h3 class="title">Dejanos tus comentarios</h3>
-        <form action="">
-          <input type="text" name="name" placeholder="Escriba su nombre">
-          <input type="text" name="lastName" placeholder="Escriba su apellido">
-          <input type="email" name="email" placeholder="Escriba su correo">
-          <input type="text" name="telephone" placeholder="Escriba su numero de telefono">
-          <textarea name="message" placeholder="Escriba su mensaje"></textarea>
-          <input type="button" value="enviar" id="button">
+        <form class="form" action="">
+          <input class="form-item" type="text" name="name" placeholder="Escriba su nombre">
+          <input class="form-item" type="text" name="lastName" placeholder="Escriba su apellido">
+          <input class="form-item" type="email" name="email" placeholder="Escriba su correo">
+          <input class="form-item" type="text" name="telephone" placeholder="Escriba su numero de telefono">
+          <textarea class="text-area" name="message" placeholder="Escriba su mensaje"></textarea>
+          <input class="button" type="button" value="enviar" id="button">
         </form>
       </section>
     </article>
