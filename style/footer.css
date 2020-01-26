@@ -9,6 +9,10 @@
   text-align: end;
 }
 
+.footer-img {
+  width: 50px;
+}
+
 @media (max-width: 920px) and (orientation: portrait) {
   .footer-section {
   width: 100%;
