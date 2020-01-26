@@ -12,3 +12,15 @@
 .hero-img {
   max-width: 100%;
 }
+
+.section-history_container {
+  background-image: url(../img/recetas/cupcake.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: right;
+}
+
+.section-history {
+  padding: 30px;
+  width: 50%;
+}
