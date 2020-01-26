@@ -1,4 +1,8 @@
 /* ESTILOS PARA EL HEADER */
+.header {
+  padding: 20px 0;
+}
+
 .header-img {
   width: 100px;
 }
