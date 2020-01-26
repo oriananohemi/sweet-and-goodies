@@ -25,3 +25,19 @@
   width: 50%;
 }
 
+.video-container {
+  width: 50%;
+}
+
+.video {
+  width: 100%;
+}
+
+@media (max-width: 920px) and (orientation: portrait) {
+.section-history {
+  width: 100%;
+}
+.video-container {
+  width: 100%;
+}
+}

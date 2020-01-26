@@ -18,10 +18,27 @@
 .information-section_container {
   background-image: url(../img/postres.jpg);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
+  background-position: center center;
 }
 
 .information-section {
   padding: 30px;
   width: 50%;
+}
+
+@media (max-width: 720px) and (orientation: portrait) {
+.icon-section_img {
+  width: 80px;
+}
+
+.icon-section_container {
+  padding: 10;
+}
+
+.information-section {
+  padding: 30px;
+  width: 90%;
+}
+
 }
