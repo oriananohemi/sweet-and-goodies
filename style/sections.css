@@ -1,4 +1,4 @@
-.icon-section_container {
+.icon-section {
   /* background-image: url(../img/fondo.jpg);
   border: 1px groove snow; */
   margin: 10px;
@@ -32,7 +32,7 @@
   width: 80px;
 }
 
-.icon-section_container {
+.icon-section {
   padding: 10;
 }
 
@@ -54,6 +54,6 @@
 }
 }
 
-@media (max-width: 620px) and (orientation: portrait)  {
+@media (max-width: 620px)  {
 
 }

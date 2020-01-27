@@ -13,21 +13,22 @@
   max-width: 100%;
 }
 
-.section-history_container {
+.section-recetas_container {
   background-image: url(../img/recetas/cupcake.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right;
+  padding: 10px;
 }
 
-.fondo {
+.background {
   background-image: url(../img/tarta.jpeg);
   background-repeat: no-repeat;
   background-position: top ;
   padding: 20px ;
 }
 
-.fondo-tras {
+.background-tras {
   background-color: rgba(0, 0, 0, .8);
 }
 
@@ -36,7 +37,7 @@
    padding: 20px;
 }
 
-.section-history {
+.section-recetas {
   padding: 30px;
   width: 50%;
 }
@@ -58,11 +59,11 @@
 .fondo{
   background-position: bottom right;
 }
-.section-history_container {
+.section-recetas_container {
   margin: 20px 0;
 }
 
-.section-history {
+.section-recetas {
   padding: 10px;
   width: 100%;
 }
