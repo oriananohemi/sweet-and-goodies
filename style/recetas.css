@@ -20,6 +20,22 @@
   background-position: right;
 }
 
+.fondo {
+  background-image: url(../img/tarta.jpeg);
+  background-repeat: no-repeat;
+  background-position: top ;
+  padding: 20px ;
+}
+
+.fondo-tras {
+  background-color: rgba(0, 0, 0, .8);
+}
+
+.section-video {
+   margin-left: 20px;
+   padding: 20px;
+}
+
 .section-history {
   padding: 30px;
   width: 50%;
@@ -28,11 +44,10 @@
 .video-container,
 .section-video {
   flex: 1 1 50%;
-  padding: 10px;
 }
 
 .video {
-  width: 100%;
+  max-width: 100%;
 }
 
 @media (max-width: 1020px){
@@ -40,18 +55,27 @@
 }
 
 @media (max-width: 920px) {
+.fondo{
+  background-position: bottom right;
+}
 .section-history_container {
   margin: 20px 0;
-}
-.video-container,
-.section-video {
-  flex: 1 1 100%;
 }
 
 .section-history {
   padding: 10px;
   width: 100%;
 }
+
+.video-container,
+.section-video {
+  flex: 1 1 100%;
+}
+
+.section-video {
+  margin-left: 0;
+}
+
 .video-container {
   width: 100%;
 }
