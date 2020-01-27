@@ -11,6 +11,8 @@
   flex: 1 1 50%;
   position: relative;
   min-height: 500px;
+  justify-content: center;
+  align-items: flex-end;
 }
 
 .welcome-img {
