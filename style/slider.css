@@ -45,11 +45,18 @@
   margin-bottom: 30px ;
 }
 
+.welcome-paragraph {
+  font-size: 30px;
+}
+
 @media (max-width:1020) {
   .welcome-text_title {
-    font-size: 30px;
+    font-size: 35px;
     margin-bottom: 10px ;
   }
+.welcome-paragraph {
+font-size: 25px;
+}
 }
 
 @media (max-width:920px) {
@@ -63,26 +70,38 @@
 }
 
   .welcome-slider {
-    min-height: 600px;
+    min-height: 500px;
   }
 }
 
 @media (max-width:800px) {
   .welcome-slider {
-    min-height: 500px ;
+    min-height: 400px ;
+  }
+  .welcome-text_title {
+  font-size: 30px;
+  margin-bottom: 20px ;
+  }
+  .welcome-paragraph {
+  font-size: 20px;
   }
 }
 
 @media (max-width: 620px) {
   .welcome-slider {
-    min-height: 400px ;
-    align-items: center;
-    /* raro */
+    min-height: 300px ;
+  }
+  .welcome-text_title {
+  font-size: 25px;
   }
 }
 
 @media (max-width:400) {
   .welcome-slider {
-    min-height: 300px;
+    min-height: 100px;
+}
+
+.welcome-paragraph {
+  font-size: 18px;
 }
 }
