@@ -1,21 +1,12 @@
-# pPostres
-
-SWEET AND GOODIES
+# Sweet And Goodies
 
 Pagina realizada como ejercicio para el curso de Fundamentos de la Programacion, dictado por Bictia
 
-Las fotos y el video pertenecen a:
+Demo del proyecto https://oriananohemi.github.io/sweetAndGoodies/
 
-Foto de Igor Ovsyannykov en Pexels
 
-Foto de Lucie Liz en Pexels
-
-Foto de Pixabay en Pexels
-
-Foto de Mareefe en Pexels
-
-Foto de Acharaporn Kamornboonyarush en Pexels
-
-Foto de JÉSHOOTS en Pexels
-
-video de la cuenta de instagram de kica_kiev
+<img src="./img/demo/Screen Shot 2020-08-30 at 13.09.03.png">
+<img src="./img/demo/Screen Shot 2020-08-30 at 13.10.19.png">
+<img src="./img/demo/Screen Shot 2020-08-30 at 13.10.31.png">
+<img src="./img/demo/Screen Shot 2020-08-30 at 13.09.54.png">
+<img src="./img/demo/Screen Shot 2020-08-30 at 13.09.59.png">
