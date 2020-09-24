@@ -1,7 +1,5 @@
 # Sweet And Goodies
 
-Pagina realizada como ejercicio para el curso de Fundamentos de la Programacion, dictado por Bictia
-
 Demo del proyecto https://oriananohemi.github.io/sweetAndGoodies/
 
 
