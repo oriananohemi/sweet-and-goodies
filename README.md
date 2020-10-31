@@ -1,6 +1,6 @@
 # Sweet And Goodies
 
-Demo del proyecto https://oriananohemi.github.io/sweetAndGoodies/
+[Demo del proyecto](https://oriananohemi.github.io/sweet-and-goodies/)
 
 
 <img src="./img/demo/Screen Shot 2020-08-30 at 13.09.03.png">
